@@ -42,7 +42,7 @@ public class TrabajoEnfoque {
              */
             
             // conección a la base de datos y creamos el statement para crear la base de datos, la tabla y más adelante insertar los datos obenidos.
-            Statement queryConeccion = Perfil.conexion("root", "Nacional2022");
+            Statement queryConeccion = Perfil.conexion("usuario", "contraseña");
             // creación base de datos y como parametro el nombre de la bbdd.
             canturador.crearDataBase(queryConeccion, "contratos");
             //creación de la tabla llamada "cliente" y con valores predeterminados.
